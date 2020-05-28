@@ -25,15 +25,12 @@
 
         </nav>
 
-        <div>
-            <a href="#" id="btnSignIn" class="btn">Sign In</a>
-            <a href="#" id="btnSignUp" class="btn btn-Up">Sign Up</a>
-        </div>
-
+        <!--Partial View Login-->
+        @Html.Partial("_login")
     </header>
 
-    <div id="body">
-        @RenderBody()
+    <div id="body"  
+            @RenderBody()
     </div>
     <footer id="footer">
         <div class="container">
