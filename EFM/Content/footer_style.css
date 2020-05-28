@@ -1,0 +1,49 @@
+﻿/*Start Footer*/
+#footer {
+    background-color: white;
+    padding: 20px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer ul li a {
+color: black;
+font-size: 17px;
+}
+
+#footer ul li a:hover {
+    text-decoration: none;
+    color: #2F76C4;
+}
+
+/* Sub Footer */
+
+#subFooter {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#footer .fb:hover {
+    color: #2F76C4;
+}
+
+#footer .tw:hover {
+    color: #00B8EA;
+}
+
+#footer .ig:hover {
+    color: #DD2a7b;
+}
+
+#footer .yt:hover {
+    color: red;
+}
+
+
+#footer h3
+{
+    margin-bottom:30px;
+}
